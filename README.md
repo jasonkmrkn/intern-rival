@@ -10,7 +10,7 @@ Fitur tambahan :
 - Counter untuk jumlah permen yang sudah tertangkap
 
 Demo Project :
-<iframe width="560" height="315" src="https://www.youtube.com/embed/upIUsHz6RQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Project Permen](https://youtu.be/upIUsHz6RQ4?si=kkV-taz0GyXr8aMR)
 
 
 

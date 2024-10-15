@@ -9,7 +9,8 @@ Fitur tambahan :
 - Menggunakan multifiles compiling dengan **header file** atau **.h**
 - Counter untuk jumlah permen yang sudah tertangkap
 
-[![Demo Project Menangkap Permen](https://img.youtube.com/vi/upIUsHz6RQ4/0.jpg)](https://youtu.be/upIUsHz6RQ4?si=5qPdThY2c16ApLXi)
+Demo Project :
+<iframe width="560" height="315" src="https://www.youtube.com/embed/upIUsHz6RQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 

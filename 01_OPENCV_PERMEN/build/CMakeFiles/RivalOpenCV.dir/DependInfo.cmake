@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/include/ball.cpp" "/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build/CMakeFiles/RivalOpenCV.dir/include/ball.cpp.o"
-  "/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/include/tangkap.cpp" "/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build/CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.o"
-  "/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/src/main.cpp" "/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build/CMakeFiles/RivalOpenCV.dir/src/main.cpp.o"
+  "/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/ball.cpp" "/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build/CMakeFiles/RivalOpenCV.dir/include/ball.cpp.o"
+  "/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/tangkap.cpp" "/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build/CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.o"
+  "/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/src/main.cpp" "/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build/CMakeFiles/RivalOpenCV.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

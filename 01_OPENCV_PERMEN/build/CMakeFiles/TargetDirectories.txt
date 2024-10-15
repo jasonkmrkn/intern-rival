@@ -1,3 +1,3 @@
-/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build/CMakeFiles/rebuild_cache.dir
-/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build/CMakeFiles/edit_cache.dir
-/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build/CMakeFiles/RivalOpenCV.dir
+/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build/CMakeFiles/rebuild_cache.dir
+/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build/CMakeFiles/edit_cache.dir
+/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build/CMakeFiles/RivalOpenCV.dir

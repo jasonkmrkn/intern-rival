@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv
+CMAKE_SOURCE_DIR = /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build
+CMAKE_BINARY_DIR = /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RivalOpenCV.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/RivalOpenCV.dir/flags.make
 
 CMakeFiles/RivalOpenCV.dir/src/main.cpp.o: CMakeFiles/RivalOpenCV.dir/flags.make
 CMakeFiles/RivalOpenCV.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RivalOpenCV.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RivalOpenCV.dir/src/main.cpp.o -c /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RivalOpenCV.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RivalOpenCV.dir/src/main.cpp.o -c /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/src/main.cpp
 
 CMakeFiles/RivalOpenCV.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RivalOpenCV.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/src/main.cpp > CMakeFiles/RivalOpenCV.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/src/main.cpp > CMakeFiles/RivalOpenCV.dir/src/main.cpp.i
 
 CMakeFiles/RivalOpenCV.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RivalOpenCV.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/src/main.cpp -o CMakeFiles/RivalOpenCV.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/src/main.cpp -o CMakeFiles/RivalOpenCV.dir/src/main.cpp.s
 
 CMakeFiles/RivalOpenCV.dir/include/ball.cpp.o: CMakeFiles/RivalOpenCV.dir/flags.make
 CMakeFiles/RivalOpenCV.dir/include/ball.cpp.o: ../include/ball.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RivalOpenCV.dir/include/ball.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RivalOpenCV.dir/include/ball.cpp.o -c /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/include/ball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RivalOpenCV.dir/include/ball.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RivalOpenCV.dir/include/ball.cpp.o -c /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/ball.cpp
 
 CMakeFiles/RivalOpenCV.dir/include/ball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RivalOpenCV.dir/include/ball.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/include/ball.cpp > CMakeFiles/RivalOpenCV.dir/include/ball.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/ball.cpp > CMakeFiles/RivalOpenCV.dir/include/ball.cpp.i
 
 CMakeFiles/RivalOpenCV.dir/include/ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RivalOpenCV.dir/include/ball.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/include/ball.cpp -o CMakeFiles/RivalOpenCV.dir/include/ball.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/ball.cpp -o CMakeFiles/RivalOpenCV.dir/include/ball.cpp.s
 
 CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.o: CMakeFiles/RivalOpenCV.dir/flags.make
 CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.o: ../include/tangkap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.o -c /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/include/tangkap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.o -c /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/tangkap.cpp
 
 CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/include/tangkap.cpp > CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/tangkap.cpp > CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.i
 
 CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/include/tangkap.cpp -o CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/tangkap.cpp -o CMakeFiles/RivalOpenCV.dir/include/tangkap.cpp.s
 
 # Object files for target RivalOpenCV
 RivalOpenCV_OBJECTS = \
@@ -125,7 +125,7 @@ RivalOpenCV: /usr/local/lib/libopencv_flann.so.4.10.0
 RivalOpenCV: /usr/local/lib/libopencv_imgproc.so.4.10.0
 RivalOpenCV: /usr/local/lib/libopencv_core.so.4.10.0
 RivalOpenCV: CMakeFiles/RivalOpenCV.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RivalOpenCV"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RivalOpenCV"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RivalOpenCV.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/RivalOpenCV.dir/clean:
 .PHONY : CMakeFiles/RivalOpenCV.dir/clean
 
 CMakeFiles/RivalOpenCV.dir/depend:
-	cd /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build /home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/build/CMakeFiles/RivalOpenCV.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build /home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/build/CMakeFiles/RivalOpenCV.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RivalOpenCV.dir/depend
 

@@ -6,13 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/include/ball.h
+/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/ball.cpp
+ball.h
+/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/ball.h
+opencv2/imgcodecs.hpp
+-
+opencv2/imgproc.hpp
+-
+opencv2/highgui.hpp
+-
+cstdlib
+-
+ctime
+-
+iostream
+-
+
+/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/ball.h
 opencv2/imgcodecs.hpp
 -
 opencv2/imgproc.hpp
 -
 
-/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/include/tangkap.cpp
+/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/tangkap.cpp
 opencv2/imgcodecs.hpp
 -
 opencv2/imgproc.hpp
@@ -20,8 +36,34 @@ opencv2/imgproc.hpp
 opencv2/highgui.hpp
 -
 ball.h
-/home/asterisx/Desktop/Projects/Testing/magang-rival-opencv/include/ball.h
+/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/ball.h
 iostream
+-
+
+/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/tangkap.h
+opencv2/imgcodecs.hpp
+-
+opencv2/imgproc.hpp
+-
+opencv2/highgui.hpp
+-
+
+/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/src/main.cpp
+../include/ball.h
+/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/ball.h
+../include/tangkap.h
+/home/asterisx/Desktop/Projects/Testing/01_OPENCV_PERMEN/include/tangkap.h
+opencv2/imgcodecs.hpp
+-
+opencv2/imgproc.hpp
+-
+opencv2/highgui.hpp
+-
+iostream
+-
+thread
+-
+chrono
 -
 
 /usr/local/include/opencv4/opencv2/core.hpp

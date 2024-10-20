@@ -1,0 +1,2 @@
+turtle_controller_node
+-DCATKIN_DEVEL_PREFIX=/home/asterisx/Desktop/Projects/Testing/02_ROS/devel -DCMAKE_INSTALL_PREFIX=/home/asterisx/Desktop/Projects/Testing/02_ROS/install -G Unix Makefiles

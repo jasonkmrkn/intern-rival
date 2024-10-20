@@ -1,0 +1,8 @@
+prefix=/home/asterisx/Desktop/Projects/Testing/02_ROS/install
+
+Name: turtle_controller_node
+Description: Description of turtle_controller_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

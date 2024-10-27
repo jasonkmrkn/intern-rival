@@ -21,4 +21,8 @@ Menggambar nama panggilan dengan mengirim ke topic /turtle1/cmd.
 maka turtle akan bergerak menggambar nama "JASON".
 
 
+## 3. Kinematika - Mobile Robot & Arm Robot
+
+
+
 

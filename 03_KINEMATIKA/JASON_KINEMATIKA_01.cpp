@@ -2,16 +2,16 @@
 #include <cmath>
 #include <vector>
 #include <string>
-#include <string.h>
+#include <sstream>
 
 using namespace std;
 
 #define R 0.15
-#define r 0.0635
+#define r_lildan 0.0635
+#define r_dharmi 0.024
 
 void LILDAN(vector<vector<double>> const &inputRobotVel);
 void DHARMI(vector<vector<double>> const &inputRobotVel);
-
 
 int main()
 {
@@ -21,22 +21,33 @@ int main()
 
     vector<vector<double>> inputRobotVel;
 
-    while ((cin >> flag) && flag != "GAS") // ngebaca input kecepatan robot sampe ada "GAS"
+    while (true) 
     {
+        string input;
+        getline(cin, input);
+        if (input == "GAS") break;
+
         vector<double> tempInput(3);
-        for (int i = 1; i < 4; i++)
+        stringstream ss(input);
+        for (int i = 1; i < 4; i++) 
         {
-            double temp;
-            cin >> temp;
-            if (i == 3)
-                tempInput[0] = temp;
-            else
-                tempInput[i] = temp;
+            if (i == 3) ss >> tempInput[0];
+            else ss >> tempInput[i];
         }
         inputRobotVel.push_back(tempInput);
     }
 
-    if (strcmp(robot.c_str(), "LILDAN") == 0)
+    cout << "\n";
+
+    cout << "Received input velocities:" << endl;
+    for (const auto& vel : inputRobotVel) 
+    {
+        cout << "omega: " << vel[0] << ", vx: " << vel[1] << ", vy: " << vel[2] << endl;
+    }
+
+    cout << "\n";
+    
+    if (robot == "LILDAN")
     {
         printf("∇\n");
         LILDAN(inputRobotVel);
@@ -66,7 +77,7 @@ void LILDAN(vector<vector<double>> const &inputRobotVel)
     {
         for (int j = 0; j < 3; j++)
         {
-            matrix_h[i][j] /= r;
+            matrix_h[i][j] /= r_lildan;
         }
     }
 
@@ -91,14 +102,15 @@ void DHARMI(vector<vector<double>> const &inputRobotVel)
 {
     double matrix_h[3][3] = {
         {-R, 1, 0},
-        {-R, -0.5, -sin(M_PI / 3)},
-        {-R, -0.5, sin(M_PI / 3)}};
+        {-R, -0.5, -sin(degToRad(120))},
+        {-R, -0.5, sin(degToRad(120))}
+        };
 
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
         {
-            matrix_h[i][j] /= r;
+            matrix_h[i][j] /= r_dharmi;
         }
     }
 
